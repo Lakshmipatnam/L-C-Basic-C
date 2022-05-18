@@ -6,7 +6,7 @@ int main()
     scanf("%d",&first_number);
     printf("enter the value of second_number");
     scanf("%d",&second_number);
-    sum=a+b;
+    sum=first_number+second_number;
     printf("sum=%d",sum);
     if(sum==30)
     {

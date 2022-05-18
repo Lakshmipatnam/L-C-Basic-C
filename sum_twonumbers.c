@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int number,sum,a,b;
-    printf("enter the value of A");
-    scanf("%d",&a);
-    printf("enter the value of B");
-    scanf("%d",&b);
+    int number,sum,first_number,second_number;
+    printf("enter the value of first_number");
+    scanf("%d",&first_number);
+    printf("enter the value of second_number");
+    scanf("%d",&second_number);
     sum=a+b;
     printf("sum=%d",sum);
     if(sum==30)
@@ -17,7 +17,7 @@ int main()
         printf("false");
     }
     /*and return true if one of them is 30*/
-    if(a==30 || b==30)
+    if(first_number==30 || second_number==30)
     {
         printf("true\n");
     }

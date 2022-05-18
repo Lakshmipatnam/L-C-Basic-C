@@ -2,7 +2,7 @@
 int main()
 {
     int n , number;
-    printf("find the factorial fo this number");
+    printf("find the factorial of this number");
     scanf("%d",&number);
     factorial=n(n-1)!;
     printf("factorail of given number is =%d",factorial);

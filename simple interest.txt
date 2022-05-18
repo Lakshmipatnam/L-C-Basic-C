@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    int p,r,n;
-    float si;
-    printf("enter the data for p,r,n");
-    scanf("%d%d%d",&p,&r,&n);
-    si=(( p * r * n )/100);
-    printf("si= %f",si);
+    int Principal_Amount,Rate_of_Interest,Number_of_years;
+    float Simple_Interest;
+    printf("enter the data for Principal_Amount,Rate_of_Interest,Number of years");
+    scanf("%d%d%d",&Principal_Amount,&Rate_of_Interest,&Number of years);
+    Simple_Interest=(( Principal_Amount*Rate_of_Interest*Number of years)/100);
+    printf("si= %f",Simple_Interest);
     return 0;
     
 }

@@ -16,7 +16,5 @@ int main()
      printf("aggregate_marks=%d\n",aggregate_marks);
      percentage_marks=aggregate_marks/5;
      printf("percentage marks obtained by student is %d %%",percentage_marks);
-     return 0;
-
-    
+     return 0;   
 }
